@@ -1,0 +1,204 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Source-Sans-Pro", sans-serif;
+    list-style: none;
+
+}
+
+.container {
+    width: 100%;
+    height: 100vg;
+}
+
+.logo {
+    display: flex;
+    align-items: baseline;
+    font-size: 30px;
+    border-bottom:
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    min-height: 100vh;
+}
+
+header img {
+    width: 150px;
+    padding-left: 40px;
+}
+
+
+nav {
+    position: sticky;
+    background: #fcfcfc;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    top: 0px;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2)
+}
+
+
+nav ul li {
+    display: inline-block;
+    padding: 15px;
+    align-items: center;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    line-height: 30px;
+    font-weight: bold;
+    font-size: 30px;
+    color: #303030;
+    padding: 0 40px;
+}
+
+nav ul li a:hover {
+    background: #303030;
+    color: #fcfcfc;
+    transition: 0.7s;
+}
+
+.nav-bar {
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1)
+}
+
+
+footer {
+    text-align: center;
+    background-color: #303036;
+    color: gray;
+    padding: 30px;
+
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+.welcome-title{
+    padding-left: 40px;
+    padding-top: 80px;
+}
+
+.welcome-title h1 {
+    font-size: 200px;
+    font-weight: 300;
+}
+.welcome-title p {
+    color: gray;
+    font-weight: 600;
+}
+
+#about-us {
+    background: url(about.jpg) no-repeat left;
+    background-size: 70%;
+    overflow: hidden;
+    padding: 100px 0;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.inner-about-us {
+    width: 50%;
+    background-color: #fdfdfd;
+    padding: 50px;
+    float: right;
+    margin-left: 40%;
+
+}
+
+.inner-about-us h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+.about-more {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #303030;
+}
+
+.feedback h1 {
+    text-align: center;
+    color: #ddd;
+}
+
+.feedback-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.feedback-form-text {
+    display: block;
+    width: 500px;
+    box-sizing: border-box;
+    margin: 16px 0;
+    background: #111;
+    padding: 20px 40px;
+    color: #ddd;
+
+}
+
+textarea .feedback-form-text {
+    resize: none;
+    height: 300px;
+}
+
+.feedback-form-btn {
+    float: right;
+    border: 0;
+    color: #fcfcfc;
+    background: #344595;
+    padding: 10px 40px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+#how-it-works {
+    background-color: #303030;
+
+}
+
+
+#signup {
+    background-color: #fcfcfc;
+}
+
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #fcfcfc;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: red;
+}
